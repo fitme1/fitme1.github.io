@@ -1,0 +1,148 @@
+	@media(min-width: 710px)
+	{
+		i{
+			    font-size: 20px;
+		}
+		.ddno
+		{
+			display: none;
+		}
+		.sitem
+		{
+          margin-left: 5px;
+		}
+		.btn:hover
+		{
+			background-color: #EFEFEF;
+		}
+		.catdiv
+		{
+			margin-top: 2px;
+		}
+		.sss
+		{
+			display: none;
+		}
+		.card
+		{
+			    width: 15%;
+			    background-color: #EFEFEF;
+			    margin-left: 8px;
+			    margin-top: 8px;
+                float: left;
+		}
+		.card-title
+		{
+			    margin-top: -15px;
+		}
+		img
+		{
+			width: 100%;
+			height: 225px;
+		}
+		p
+		{
+			margin-bottom: 0.15rem;
+		}
+		.rprice
+		{
+			font-size: 13px;
+			float: left;
+            margin-left: -40px;
+		}
+		.offer
+		{
+			float: right;
+            font-size: 13px;
+            margin-top: 9px;
+            color: #0080FF;
+		}
+		.logo
+		{
+			width: 4%;
+            height: 40px;
+            margin-top: -7px;
+            border-radius: 50%;
+		}
+		.hm
+		{
+           display: none;
+		}
+
+
+	}
+	@media(max-width: 700px)
+	{
+		.sitem
+		{
+          margin-left: 5px;
+          margin-top: 5px;
+		}
+		#sort
+		{
+			display: none;
+		}
+		#srch
+		{
+			display: none;
+		}
+		.catdiv
+		{
+			margin-top: 2px;
+		}
+		.cat
+		{
+			    margin-top: 5px;
+		}
+		.sss
+		{
+			    width: 70%;
+
+		}
+		.card
+		{
+			width: 47%;
+			float: left;
+			margin-left: 5px;
+			margin-top: 5px;
+
+		}
+		.card-title
+		{
+			margin-top: -15px;
+		}
+		.card-body
+		{
+			background-color: #EFEFEF;
+		}
+		img
+		{
+			height: 185px;
+
+		}
+		p
+		{
+			margin-bottom: 0.15rem;
+		}
+		.rprice
+		{
+			font-size: 13px;
+			float: left;
+            margin-left: -40px;
+		}
+		.offer
+		{
+			float: right;
+            font-size: 13px;
+            margin-top: 9px;
+            color: #0080FF;
+		}
+		.logo
+		{
+			display: none;
+		}
+		.dno
+		{
+			display: none;
+		}
+	}
