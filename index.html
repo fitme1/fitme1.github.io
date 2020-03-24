@@ -406,7 +406,32 @@ width: 48%;
 
 <body>
 <!--Nav bar -->
-<?php include('header.php') ?>
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark" >
+      <div class="header">
+      <a href="#home" class="navbar-brand"><img src="images/logo.jpg" class="logo">Shirt</a>  
+      </div>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        
+        <ul class="navbar-nav nav-right">
+        <li class="nav-item">
+          <a href="#home" class="btn btn-link"><i class="fas fa-shopping-cart" style="color: white"></i><label class="ddno" style="color: white;margin-left: 3px;">Cart</label></a> 
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="btn btn-link"><i class="fas fa-user "style="color: white"></i><label class="ddno" style="color: white;margin-left: 3px;">Profile</label> </a> 
+        </li>
+        <li class="nav-item">
+          <a href="#home" class="btn btn-link"><i class="fas fa-sign-in-alt "style="color: white"></i><label class="ddno" style="color: white;margin-left: 5px;">Login</label> </a> 
+        </li>
+        
+      </ul>
+
+      </div>
+      
+
+    </nav>
 <!--image slider-->
 <div id="demo" class="carousel slide" data-ride="carousel">
 
